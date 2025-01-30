@@ -1,0 +1,70 @@
+/* Resetting Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fixednav {
+    position: fixed;
+    
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1a1640;
+    opacity: 90%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    z-index: 1000; /* Ensures navbar stays above content */
+}
+
+/* List Styling */
+.list {
+    list-style-type: none;
+}
+
+/* Logo Image Styling */
+.logoimg {
+    height: 20px;
+}
+
+/* Navigation List Styling */
+.navlist {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between nav items */
+    color: #ffffff;
+}
+
+/* Navigation Item Styling */
+.navitem {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+}
+
+/* Navigation Text Styling */
+.navname {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Main Content Padding */
+
